@@ -1055,6 +1055,610 @@
       "name" : {
         "name" : "Logics"
       }
+    },
+    {
+      "properties" : [
+
+      ],
+      "methods" : [
+        {
+          "methodCalls" : [
+
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Void"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "assignRootViewController"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+
+          ]
+        }
+      ],
+      "baseClass" : {
+        "type" : {
+          "name" : "Object"
+        }
+      },
+      "name" : {
+        "name" : "ViewController"
+      }
+    },
+    {
+      "properties" : [
+
+      ],
+      "methods" : [
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring",
+                "type-xargument",
+                "type-xargument",
+                "type-xargument"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                "native-objc-create-obj-c-model-0-argument",
+                {
+                  "name" : {
+                    "name" : "onInstance"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "className"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "selectorName"
+                  }
+                }
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Void"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "createObjCModelZeroArgument"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+            {
+              "name" : {
+                "name" : "onInstance"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "className"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "selectorName"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring",
+                "type-xargument",
+                "type-xargument",
+                "type-xargument",
+                "type-xargument"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                "native-objc-create-obj-c-model-1-argument",
+                {
+                  "name" : {
+                    "name" : "onInstance"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "className"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "selectorName"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "argumentOne"
+                  }
+                }
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Void"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "createObjCModelOneArgument"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+            {
+              "name" : {
+                "name" : "onInstance"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "className"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "selectorName"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "argumentOne"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring",
+                "type-xargument",
+                "type-xargument",
+                "type-xargument",
+                "type-xargument",
+                "type-xargument"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                "native-objc-create-obj-c-model-2-argument",
+                {
+                  "name" : {
+                    "name" : "onInstance"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "className"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "selectorName"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "argumentOne"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "argumentTwo"
+                  }
+                }
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Void"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "createObjCModelTwoArguments"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+            {
+              "name" : {
+                "name" : "onInstance"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "className"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "selectorName"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "argumentOne"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "argumentTwo"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-xargument",
+                "type-xargument",
+                "type-nsstring"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                {
+                  "name" : {
+                    "name" : "onInstance"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "selectorName"
+                  }
+                },
+                "native-objc-perform-method-call-0-argument"
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Object"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "makeObjectPerformMethodCallZeroArgument"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+            {
+              "name" : {
+                "name" : "onInstance"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "selectorName"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring",
+                "type-xargument",
+                "type-xargument",
+                "type-xargument"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                "native-objc-perform-method-call-1-argument",
+                {
+                  "name" : {
+                    "name" : "onInstance"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "selectorName"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "argumentOne"
+                  }
+                }
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Object"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "makeObjectPerformMethodCallOneArgument"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+            {
+              "name" : {
+                "name" : "onInstance"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "selectorName"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "argumentOne"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring",
+                "type-xargument",
+                "type-xargument",
+                "type-xargument",
+                "type-xargument"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                "native-objc-perform-method-call-2-argument",
+                {
+                  "name" : {
+                    "name" : "onInstance"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "selectorName"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "argumentOne"
+                  }
+                },
+                {
+                  "name" : {
+                    "name" : "argumentTwo"
+                  }
+                }
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Object"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "makeObjectPerformMethodCallTwoArguments"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+            {
+              "name" : {
+                "name" : "onInstance"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "selectorName"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "argumentOne"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            },
+            {
+              "name" : {
+                "name" : "argumentTwo"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "baseClass" : {
+        "type" : {
+          "name" : "Object"
+        }
+      },
+      "name" : {
+        "name" : "ObjCNative"
+      }
     }
   ],
   "Version" : "1.0",
