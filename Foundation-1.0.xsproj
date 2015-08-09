@@ -1063,7 +1063,22 @@
       "methods" : [
         {
           "methodCalls" : [
-
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                "native-ui-get-main-vc"
+              ],
+              "breakpoint" : false
+            }
           ],
           "returnType" : {
             "type" : {
@@ -1653,7 +1668,7 @@
       ],
       "baseClass" : {
         "type" : {
-          "name" : "Object"
+          "name" : "ViewController"
         }
       },
       "name" : {
