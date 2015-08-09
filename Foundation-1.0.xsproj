@@ -1668,7 +1668,7 @@
       ],
       "baseClass" : {
         "type" : {
-          "name" : "ViewController"
+          "name" : "Object"
         }
       },
       "name" : {
