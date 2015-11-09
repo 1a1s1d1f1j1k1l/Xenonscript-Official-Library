@@ -94,6 +94,58 @@
           "parameters" : [
 
           ]
+        },
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring",
+                "type-xargument"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                "XSObject-xsreturn:",
+                {
+                  "name" : {
+                    "name" : "objectToReturn"
+                  }
+                }
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Void"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "return"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+            {
+              "name" : {
+                "name" : "objectToReturn"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            }
+          ]
         }
       ],
       "baseClass" : {
