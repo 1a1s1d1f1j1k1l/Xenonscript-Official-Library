@@ -222,22 +222,6 @@
                 "type-nsstring"
               ],
               "instance" : {
-                "name" : "this"
-              },
-              "function" : {
-                "name" : "print"
-              },
-              "arguments" : [
-                "Hello, World!!"
-              ],
-              "breakpoint" : false
-            },
-            {
-              "instanceType" : "type-xname",
-              "argumentType" : [
-                "type-nsstring"
-              ],
-              "instance" : {
                 "name" : "strToBePrinted"
               },
               "function" : {
