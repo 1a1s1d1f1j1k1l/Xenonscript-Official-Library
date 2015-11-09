@@ -1,0 +1,43 @@
+{
+  "classes" : [
+    {
+      "properties" : [
+
+      ],
+      "methods" : [
+
+      ],
+      "baseClass" : {
+        "type" : {
+          "name" : "Object"
+        }
+      },
+      "name" : {
+        "name" : "Void"
+      }
+    },
+    {
+      "properties" : [
+
+      ],
+      "methods" : [
+
+      ],
+      "baseClass" : {
+        "type" : {
+          "name" : "Native"
+        }
+      },
+      "name" : {
+        "name" : "Object"
+      }
+    }
+  ],
+  "Version" : "1.0",
+  "name" : {
+    "name" : "Foundation"
+  },
+  "linkedFrameworks" : [
+
+  ]
+}
