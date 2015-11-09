@@ -146,6 +146,58 @@
               }
             }
           ]
+        },
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring",
+                "type-xargument"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                "XSObject-assignInstanceToInstance:",
+                {
+                  "name" : {
+                    "name" : "valueToBeAssigned"
+                  }
+                }
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Void"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "assign"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+            {
+              "name" : {
+                "name" : "valueToBeAssigned"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            }
+          ]
         }
       ],
       "baseClass" : {
@@ -179,6 +231,42 @@
                 "Hello, World!!"
               ],
               "breakpoint" : false
+            },
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring"
+              ],
+              "instance" : {
+                "name" : "strToBePrinted"
+              },
+              "function" : {
+                "name" : "assign"
+              },
+              "arguments" : [
+                "Hello Threr"
+              ],
+              "breakpoint" : false
+            },
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-xargument"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "print"
+              },
+              "arguments" : [
+                {
+                  "name" : {
+                    "name" : "strToBePrinted"
+                  }
+                }
+              ],
+              "breakpoint" : false
             }
           ],
           "returnType" : {
@@ -187,7 +275,16 @@
             }
           },
           "localVariables" : [
-
+            {
+              "name" : {
+                "name" : "strToBePrinted"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "String"
+                }
+              }
+            }
           ],
           "name" : {
             "name" : "start"
@@ -202,11 +299,27 @@
       ],
       "baseClass" : {
         "type" : {
-          "name" : "Object"
+          "name" : "Void"
         }
       },
       "name" : {
         "name" : "Start"
+      }
+    },
+    {
+      "properties" : [
+
+      ],
+      "methods" : [
+
+      ],
+      "baseClass" : {
+        "type" : {
+          "name" : "Object"
+        }
+      },
+      "name" : {
+        "name" : "String"
       }
     }
   ],
