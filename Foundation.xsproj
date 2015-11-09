@@ -21,7 +21,80 @@
 
       ],
       "methods" : [
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring",
+                "type-xargument"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "native"
+              },
+              "arguments" : [
+                "XSObject-print:",
+                {
+                  "name" : {
+                    "name" : "objectToPrint"
+                  }
+                }
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Void"
+            }
+          },
+          "localVariables" : [
 
+          ],
+          "name" : {
+            "name" : "print"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+            {
+              "name" : {
+                "name" : "objectToPrint"
+              },
+              "type" : {
+                "type" : {
+                  "name" : "Object"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "methodCalls" : [
+
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Void"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "native"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+
+          ]
+        }
       ],
       "baseClass" : {
         "type" : {
@@ -30,6 +103,58 @@
       },
       "name" : {
         "name" : "Object"
+      }
+    },
+    {
+      "properties" : [
+
+      ],
+      "methods" : [
+        {
+          "methodCalls" : [
+            {
+              "instanceType" : "type-xname",
+              "argumentType" : [
+                "type-nsstring"
+              ],
+              "instance" : {
+                "name" : "this"
+              },
+              "function" : {
+                "name" : "print"
+              },
+              "arguments" : [
+                "Hello, World!!"
+              ],
+              "breakpoint" : false
+            }
+          ],
+          "returnType" : {
+            "type" : {
+              "name" : "Void"
+            }
+          },
+          "localVariables" : [
+
+          ],
+          "name" : {
+            "name" : "start"
+          },
+          "localFunctions" : [
+
+          ],
+          "parameters" : [
+
+          ]
+        }
+      ],
+      "baseClass" : {
+        "type" : {
+          "name" : "Object"
+        }
+      },
+      "name" : {
+        "name" : "Start"
       }
     }
   ],
